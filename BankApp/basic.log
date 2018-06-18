@@ -1,0 +1,60 @@
+2018-06-14 11:55:28,409 INFO [com.cg.evm.pl.Main] - starting transaction..
+2018-06-14 11:55:42,496 INFO [com.cg.evm.dao.TransactionDaoImpl] - insert query successfull for acc no 10002
+2018-06-14 11:55:42,501 INFO [com.cg.evm.pl.Main] - transaction completed for 10002 with trans id 127
+2018-06-14 11:56:00,475 INFO [com.cg.evm.pl.Main] - Displaying Transaction ...
+2018-06-14 11:56:06,527 INFO [com.cg.evm.dao.TransactionDaoImpl] - select query successfull
+2018-06-14 11:56:06,530 INFO [com.cg.evm.pl.Main] - Display successfull.
+2018-06-14 11:57:23,837 INFO [com.cg.evm.pl.Main] - Displaying Transaction ...
+2018-06-14 11:57:35,259 INFO [com.cg.evm.dao.TransactionDaoImpl] - select query successfull
+2018-06-14 11:57:35,260 WARN [com.cg.evm.pl.Main] - No record found for 10001
+2018-06-14 11:57:35,261 INFO [com.cg.evm.pl.Main] - Display successfull.
+2018-06-14 11:57:39,132 INFO [com.cg.evm.pl.Main] - starting transaction..
+2018-06-14 11:57:52,299 INFO [com.cg.evm.dao.TransactionDaoImpl] - insert query successfull for acc no 10001
+2018-06-14 11:57:52,302 INFO [com.cg.evm.pl.Main] - transaction completed for 10001 with trans id 128
+2018-06-14 11:57:57,533 INFO [com.cg.evm.pl.Main] - starting transaction..
+2018-06-14 12:01:06,885 INFO [com.cg.evm.pl.Main] - Displaying Transaction ...
+2018-06-14 12:01:10,077 DEBUG [com.cg.evm.dao.TransactionDaoImpl] - Getting transaction list for 10002 ...
+2018-06-14 12:01:10,310 DEBUG [util.DatabaseConnection] - connection successfull
+2018-06-14 12:01:10,341 INFO [com.cg.evm.dao.TransactionDaoImpl] - select query successfull
+2018-06-14 12:01:10,347 DEBUG [com.cg.evm.dao.TransactionDaoImpl] - record added ---------------------------------------------
+Transaction Id 		: 127
+Transaction Type	: Credit
+Transaction Date 	: Thu Jun 14 00:00:00 IST 2018
+Account Number 		: 10002
+2018-06-14 12:01:10,348 DEBUG [com.cg.evm.dao.TransactionDaoImpl] - Retuning lis [---------------------------------------------
+Transaction Id 		: 127
+Transaction Type	: Credit
+Transaction Date 	: Thu Jun 14 00:00:00 IST 2018
+Account Number 		: 10002]
+2018-06-14 12:01:10,348 DEBUG [com.cg.evm.pl.Main] - Displaying [---------------------------------------------
+Transaction Id 		: 127
+Transaction Type	: Credit
+Transaction Date 	: Thu Jun 14 00:00:00 IST 2018
+Account Number 		: 10002]
+2018-06-14 12:01:10,348 INFO [com.cg.evm.pl.Main] - Display successfull.
+2018-06-14 12:01:16,724 INFO [com.cg.evm.pl.Main] - Displaying Transaction ...
+2018-06-14 12:01:19,268 DEBUG [com.cg.evm.dao.TransactionDaoImpl] - Getting transaction list for 10001 ...
+2018-06-14 12:01:19,309 DEBUG [util.DatabaseConnection] - connection successfull
+2018-06-14 12:01:19,311 INFO [com.cg.evm.dao.TransactionDaoImpl] - select query successfull
+2018-06-14 12:01:19,311 DEBUG [com.cg.evm.dao.TransactionDaoImpl] - record added ---------------------------------------------
+Transaction Id 		: 128
+Transaction Type	: Deposit
+Transaction Date 	: Thu Jun 14 00:00:00 IST 2018
+Account Number 		: 10001
+2018-06-14 12:01:19,311 DEBUG [com.cg.evm.dao.TransactionDaoImpl] - Retuning lis [---------------------------------------------
+Transaction Id 		: 128
+Transaction Type	: Deposit
+Transaction Date 	: Thu Jun 14 00:00:00 IST 2018
+Account Number 		: 10001]
+2018-06-14 12:01:19,311 DEBUG [com.cg.evm.pl.Main] - Displaying [---------------------------------------------
+Transaction Id 		: 128
+Transaction Type	: Deposit
+Transaction Date 	: Thu Jun 14 00:00:00 IST 2018
+Account Number 		: 10001]
+2018-06-14 12:01:19,311 INFO [com.cg.evm.pl.Main] - Display successfull.
+2018-06-14 12:01:33,445 INFO [com.cg.evm.pl.Main] - starting transaction..
+2018-06-14 12:01:49,109 DEBUG [com.cg.evm.dao.TransactionDaoImpl] - adding Transaction details...
+2018-06-14 12:01:49,155 DEBUG [util.DatabaseConnection] - connection successfull
+2018-06-14 12:01:49,157 INFO [com.cg.evm.dao.TransactionDaoImpl] - insert query successfull for acc no 10001
+2018-06-14 12:01:49,158 DEBUG [com.cg.evm.dao.TransactionDaoImpl] - select transactionId_seq.currval successfull
+2018-06-14 12:01:49,159 INFO [com.cg.evm.pl.Main] - transaction completed for 10001 with trans id 129
